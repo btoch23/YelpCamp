@@ -25,7 +25,7 @@ app.use(methodOverride('_method'));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-    res.render('home')
+    res.render('home');
 })
 
 app.get('/campgrounds', async (req, res) => {
